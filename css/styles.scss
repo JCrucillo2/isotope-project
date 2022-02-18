@@ -1,3 +1,9 @@
+// variables
+$common-padding: 1.6rem;
+$common-margin: 1.6rem;
+$dark: #212121;
+$light: #eeeeee;
+
 :root,
 html {
     font-size: 62.5%;
@@ -31,5 +37,41 @@ h3 {
 // styles
 .container {
     max-width: 160rem;
-    margin: 0 auto;
+    margin: 3rem auto;
+    h1 {
+        margin-bottom: $common-margin;
+        text-align: center;
+    }
+}
+
+.grid {
+    img {
+        width: 100%;
+    }
+    .grid-item {
+        margin: 1rem;
+        border: 0.1rem solid $dark;
+        padding: 1rem;
+    }
+    .meme {
+        width: 30rem;
+    }
+    .scenery {
+        width: 35rem;
+    }
+    .random,
+    .text {
+        width: 25rem;
+    }
+    .text {
+        border: 0.1rem solid;
+        padding: $common-padding;
+        h3 {
+            background-color: $dark;
+            color: $light;
+            text-align: center;
+            margin-bottom: $common-margin;
+            padding: $common-padding;
+        }
+    }
 }

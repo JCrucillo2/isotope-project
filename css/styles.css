@@ -30,6 +30,47 @@ h3 {
 
 .container {
   max-width: 160rem;
-  margin: 0 auto;
+  margin: 3rem auto;
+}
+
+.container h1 {
+  margin-bottom: 1.6rem;
+  text-align: center;
+}
+
+.grid img {
+  width: 100%;
+}
+
+.grid .grid-item {
+  margin: 1rem;
+  border: 0.1rem solid #212121;
+  padding: 1rem;
+}
+
+.grid .meme {
+  width: 30rem;
+}
+
+.grid .scenery {
+  width: 35rem;
+}
+
+.grid .random,
+.grid .text {
+  width: 25rem;
+}
+
+.grid .text {
+  border: 0.1rem solid;
+  padding: 1.6rem;
+}
+
+.grid .text h3 {
+  background-color: #212121;
+  color: #eeeeee;
+  text-align: center;
+  margin-bottom: 1.6rem;
+  padding: 1.6rem;
 }
 /*# sourceMappingURL=styles.css.map */
