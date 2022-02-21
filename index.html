@@ -10,7 +10,7 @@
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
         <link
-            href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap"
+            href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&family=Redressed&display=swap"
             rel="stylesheet"
         />
 
@@ -28,42 +28,76 @@
         <div class="container">
             <header></header>
             <main>
-                <h1>Masonry Preview</h1>
+                <h1>Cool stuff with Isotope</h1>
+
+                <div class="item-menu">
+                    <ul class="selectGroup">
+                        <li
+                            data-filter="*"
+                            class="btn-primary buttonSort is-checked"
+                        >
+                            All
+                        </li>
+                        <li
+                            data-filter=".animals"
+                            class="btn-primary buttonSort"
+                        >
+                            Animals
+                        </li>
+                        <li
+                            data-filter=".scenery"
+                            class="btn-primary buttonSort"
+                        >
+                            Scenery
+                        </li>
+                        <li
+                            data-filter=".fun-facts"
+                            class="btn-primary buttonSort"
+                        >
+                            Fun Facts
+                        </li>
+                        <li
+                            data-filter=".random"
+                            class="btn-primary buttonSort"
+                        >
+                            Random
+                        </li>
+                    </ul>
+                </div>
+
                 <div class="grid">
-                    <div class="grid-item meme">
-                        <img src="./img/dog.jpg" alt="dog" />
+                    <div class="grid-item width--1 animals">
+                        <img src="./img/bison.jpg" alt="bison" />
+                        <h2>Bison</h2>
                     </div>
-                    <div class="grid-item meme">
-                        <img src="./img/hey.jpg" alt="hey" />
+                    <div class="grid-item width--1 scenery">
+                        <img src="./img/elkland.jpg" alt="elkview" />
                     </div>
-                    <div class="grid-item random">
-                        <img src="./img/dogwide.jpg" alt="dogwide" />
+                    <div class="grid-item width--3 random">
+                        <img src="./img/grill.jpg" alt="grill" />
                     </div>
-                    <div class="grid-item text">
-                        <h3>Testing</h3>
+                    <div class="grid-item text fun-facts">
+                        <h3>Canada</h3>
                         <p>
-                            Lorem ipsum dolor sit, amet consectetur adipisicing
-                            elit. Consectetur, qui.
+                            Moving to Canada is one of the best decision my
+                            family decided. The quality of life here is much
+                            better than Philippines.
                         </p>
                     </div>
-                    <div class="grid-item random">
-                        <img src="./img/infuriating.jpg" alt="infuriating" />
+                    <div class="grid-item width--3 scenery">
+                        <img src="./img/lake.jpg" alt="lake" />
                     </div>
-                    <div class="grid-item scenery">
-                        <img src="./img/mountain1.jpg" alt="mountain 1" />
+                    <div class="grid-item width--2 animals">
+                        <img src="./img/squirrel.jpg" alt="squirrel" />
                     </div>
-                    <div class="grid-item random">
-                        <img src="./img/programmer.jpg" alt="programmer" />
-                    </div>
-                    <div class="grid-item text">
-                        <h3>Testing 2</h3>
+                    <div class="grid-item text fun-facts">
+                        <h3>Taste of St. Joes</h3>
                         <p>
-                            Lorem ipsum dolor sit, amet consectetur adipisicing
-                            elit. Consectetur, qui.
+                            One of the most exciting events during my high
+                            school days is the Tase of St. Joes. In this event,
+                            people from different cultures make and serve their
+                            country's tastiest foods.
                         </p>
-                    </div>
-                    <div class="grid-item random">
-                        <img src="./img/zinogre.jpg" alt="zinogre" />
                     </div>
                 </div>
             </main>
